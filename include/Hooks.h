@@ -22,7 +22,7 @@ namespace SDF
 
 			static void Install()
 			{
-				stl::write_thunk_call<ProcessStagger>(REL::RelocationID(34188, 34982).address() + 0x6F);  // 1.5.97 140563460
+				stl::write_thunk_call<ProcessStagger>(REL::RelocationID(34188, 34982).address() + REL::Relocate(0x6F, 0x6F, 0x6F));  // 1.5.97 140563460
 			}
 		};
 

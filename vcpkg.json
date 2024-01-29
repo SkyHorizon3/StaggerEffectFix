@@ -1,12 +1,15 @@
 {
   "name": "staggereffectfix",
-  "version-string": "1.0.0",
+  "version-semver": "1.0.0",
   "description": "",
   "license": "MIT",
-  "dependencies": ["spdlog"],
-  "features": {
-    "mo2-install": {
-      "description": "StaggerEffectFix"
-    }
-  }
+  "dependencies": [
+    "spdlog",
+    "xbyak",
+    "directxtk",
+    "catch2",
+    "rapidcsv",
+    "nlohmann-json"
+  ],
+  "builtin-baseline": "7032c5759f823fc8699a5c37d5f7072464ccb9a8"
 }
